@@ -87,8 +87,7 @@ python train.py --dataset lol_v1
 ## 4. Contact
 
 - If you have any questions, please feel free to contact us or submit an issue to the repository!
-
-- Mousumi Behera (mousumibehera821@gmail.com or 524cs3009@nitrkl.ac.in)
+    Mousumi Behera (mousumibehera821@gmail.com or 524cs3009@nitrkl.ac.in)
 
 ## 5. Citation
 If you find our proposed work useful for your research, please cite our paper
