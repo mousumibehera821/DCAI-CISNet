@@ -41,13 +41,14 @@ class RGB_DCAI(nn.Module):
         
         #k = self.density_k
         #self.this_k = k.item()
-        
+        #k_map = self.k_map
         color_sensitive = ((value * 0.5 * pi).sin() + eps).pow(k_map)
         ch = (2.0 * pi * hue).cos()
         cv = (2.0 * pi * hue).sin()
         H = color_sensitive * saturation * ch
         V = color_sensitive * saturation * cv
         I = value
+        self.k_map = k_map.detach()
         xyz = torch.cat([H, V, I],dim=1)
         return xyz
     
@@ -65,7 +66,9 @@ class RGB_DCAI(nn.Module):
         k = self.this_k
 
         # inverse adaptive modulation
-        color_sensitive = ((v * 0.5 * pi).sin() + eps).pow(k)
+        k_map = self.k_map
+        k_map = k_map.squeeze(1)
+        color_sensitive = ((v * 0.5 * pi).sin() + eps).pow(k_map)
         H = (H) / (color_sensitive + eps)
         V = (V) / (color_sensitive + eps)
         H = torch.clamp(H,-1,1)
