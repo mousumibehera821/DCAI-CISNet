@@ -90,8 +90,14 @@ python train.py --dataset lol_v1
     Mousumi Behera (mousumibehera821@gmail.com or 524cs3009@nitrkl.ac.in)
 
 ## 5. Citation
-If you find our proposed work useful for your research, please cite our paper
+If you find our proposed work useful for your research, please cite our paper:
 
-```
-Will be updated upon publication.
-```
+```bibtex
+@inproceedings{Behera2026DCAICISNet,
+  author    = {Mousumi Behera and Prasenjit Dey},
+  title     = {DCAI-CISNet: Directional Chroma-Adaptive Intensity with Chromatic-Illumination Separation Network for Low-Light Image Enhancement},
+  booktitle = {2026 International Conference on Emerging Technologies in Computing and Communication (ETCC)},
+  year      = {2026},
+  pages     = {1--6},
+  url       = {https://api.semanticscholar.org/CorpusID:292144880}
+}
