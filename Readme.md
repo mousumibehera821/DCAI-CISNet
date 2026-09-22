@@ -99,5 +99,5 @@ If you find our proposed work useful for your research, please cite our paper:
   booktitle = {2026 International Conference on Emerging Technologies in Computing and Communication (ETCC)},
   year      = {2026},
   pages     = {1--6},
-  url       = {https://api.semanticscholar.org/CorpusID:292144880}
+  doi       = {10.1109/ETCC69750.2026.11681954}
 }
