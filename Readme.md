@@ -1,6 +1,6 @@
 # [ETCC2026] DCAI-CISNet: Directional Chroma–Adaptive Intensity with Chromatic–Illumination Separation Network for Low-Light Image Enhancement
 
-**[Mousumi Behera] (https://scholar.google.com/citations?user=XJnM_dEAAAAJ&hl=en&oi=ao)<sup>∗ </sup>, [Prasenjit Dey] (https://scholar.google.com/citations?user=Z46lTvcAAAAJ&hl=en&oi=ao)
+[Mousumi Behera] (https://scholar.google.com/citations?user=XJnM_dEAAAAJ&hl=en&oi=ao)<sup> </sup>, [Prasenjit Dey] (https://scholar.google.com/citations?user=Z46lTvcAAAAJ&hl=en&oi=ao)
 
 ## Pretrained Weights
 
