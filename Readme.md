@@ -86,19 +86,32 @@ python train.py --dataset lol_v1
 
 ## 4. Methodology
 Directional Chroma Adaptive Intensity illustration is below:
+<details>
+<summary><b>DCAI</b></summary>
+    
 <p align="center">
   <img src="results/architecture/Directional Chroma Adaptive Intensity (DCAI).jpg" width="1000">
 </p>
+</details>
+
+<details>
+<summary><b>Methodology</b></summary>
 
 The overall architecture of DCAI-CISNet is illustrated below.
 
 <p align="center">
   <img src="results/architecture/Methodology.jpeg" width="1000">
 </p>
+</details>
 
 ## 5. Results
 ### 5.1 Quantitative Results on Paired Datasets
 Quantitative comparison on three paired low-light image enhancement datasets: LOLv1, LOLv2-Real, and LOLv2-Synthetic. ↑ indicates higher is better, while ↓ indicates lower is better.
+
+<details>
+<summary><b>Paired Datasets: LOLv1, LOLv2-Real, and LOLv2-Synthetic</b></summary>
+
+<br>
 
 <table>
 <thead>
@@ -249,9 +262,16 @@ Quantitative comparison on three paired low-light image enhancement datasets: LO
 
 </tbody>
 </table>
+</details>
 
 ### 5.2 Quantitative Results on Unpaired Datasets
 Quantitative evaluation on five unpaired datasets: DICM, MEF, LIME, NPE, and VV. Lower values indicate better performance for all three metrics.
+
+<details>
+<summary><b>Unpaired Datasets: DICM, MEF, LIME, NPE, and VV</b></summary>
+
+<br>
+
 
 <table>
 <thead>
@@ -440,26 +460,37 @@ Quantitative evaluation on five unpaired datasets: DICM, MEF, LIME, NPE, and VV.
 
 </tbody>
 </table>
+</details>
 
 ### 5.3 Qualitative Results on Paired Dataset
 Qualitative comparisons of DCAI-CISNet with representative low-light image enhancement methods are presented below.
+
+<details>
+<summary><b>paired</b></summary>
 
 <p align="center">
   <img src="results/qualitative/paired_result.jpeg" width="1000">
 </p>
 
-### 5.3 Qualitative Results on Unpaired Dataset
+</details>
+
+### 5.4 Qualitative Results on Unpaired Dataset
 Qualitative comparisons of DCAI-CISNet with representative low-light image enhancement methods are presented below.
+<details>
+<summary><b>unpaired</b></summary>
+
 <p align="center">
   <img src="results/qualitative/unpaired_result.jpeg" width="1000">
 </p>
 
-## 4. Contact
+</details>
+    
+## 6. Contact
 
 - If you have any questions, please feel free to contact us or submit an issue to the repository!
     Mousumi Behera (mousumibehera821@gmail.com or 524cs3009@nitrkl.ac.in)
 
-## 5. Citation
+## 7. Citation
 If you find our proposed work useful for your research, please cite our paper:
 
 ```bibtex
