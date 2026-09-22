@@ -84,6 +84,15 @@ python train.py --dataset lol_v1
 ```
 - All weights are saved to the `./weights/train` folder and are saved in steps of the checkpoint set in the `options.py`  as `epoch_*.pth` where `*` represent the epoch number.
 
+## 4. Methodology
+The overall architecture of DCAI-CISNet is illustrated below.
+
+<p align="center">
+  <img src="results/architecture/DCAI-CISNet_architecture.png" width="1000">
+</p>
+## 5. Results
+
+
 ## 4. Contact
 
 - If you have any questions, please feel free to contact us or submit an issue to the repository!
